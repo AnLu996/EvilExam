@@ -1,0 +1,101 @@
+﻿N°,Categoría,Patrón,Pregunta
+1,Estructural,Adapter,¿Qué problema resuelve el patrón Adapter y en qué situaciones resulta conveniente utilizarlo?
+2,Estructural,Adapter,¿Cómo implementarías el patrón Adapter en Java para integrar una clase que utiliza Celsius con otra que espera valores Fahrenheit?
+3,Estructural,Adapter,¿Cuál es la diferencia entre un Adapter y una clase que simplemente hereda de otra?
+4,Estructural,Adapter,Imagina que tienes una aplicación que utiliza una biblioteca antigua para generar reportes y deseas incorporar una nueva biblioteca. ¿Cómo utilizarías Adapter?
+5,Estructural,Adapter,¿Qué ventajas y desventajas tiene utilizar Adapter frente a modificar directamente la clase original?
+6,Estructural,Bridge,¿Qué problema busca solucionar el patrón Bridge?
+7,Estructural,Bridge,¿Por qué el patrón Bridge permite evitar una explosión de clases cuando existen múltiples dimensiones de variación?
+8,Estructural,Bridge,Diseña una solución utilizando Bridge para representar diferentes tipos de dispositivos (TV y Radio) que pueden controlarse mediante controles básicos y avanzados.
+9,Estructural,Bridge,¿Cuál es la diferencia fundamental entre Bridge y Adapter?
+10,Estructural,Bridge,¿Qué sucedería si implementaras el ejemplo de Bridge utilizando únicamente herencia?
+11,Estructural,Composite,¿Qué problema resuelve el patrón Composite?
+12,Estructural,Composite,¿Cómo representarías una estructura jerárquica de archivos y carpetas utilizando Composite?
+13,Estructural,Composite,¿Qué diferencia existe entre un objeto hoja (Leaf) y un objeto compuesto (Composite)?
+14,Estructural,Composite,Diseña una estructura de clases en Java que permita calcular el precio total de una caja que contiene productos y otras cajas.
+15,Estructural,Composite,¿Por qué Composite permite tratar objetos individuales y grupos de objetos de manera uniforme?
+16,Estructural,Decorator,¿Qué problema resuelve el patrón Decorator?
+17,Estructural,Decorator,¿Cómo agregarías funcionalidades de compresión y cifrado a un flujo de datos sin modificar la clase original?
+18,Estructural,Decorator,¿Cuál es la diferencia entre utilizar Decorator y crear una subclase para cada combinación de funcionalidades?
+19,Estructural,Decorator,"Diseña una implementación de Decorator para una cafetería donde un café pueda incorporar leche, chocolate y crema."
+20,Estructural,Decorator,¿Qué ventajas tiene Decorator frente a modificar directamente una clase para agregar nuevas funcionalidades?
+21,Estructural,Facade,¿Qué problema resuelve el patrón Facade?
+22,Estructural,Facade,"Imagina que un sistema de compras necesita validar el pago, actualizar el inventario y generar una factura. ¿Cómo aplicarías Facade?"
+23,Estructural,Facade,¿Qué diferencia existe entre Facade y Adapter?
+24,Estructural,Facade,¿Por qué Facade simplifica la interacción con subsistemas complejos?
+25,Estructural,Facade,¿Qué desventajas podrían aparecer si una clase Facade concentra demasiadas responsabilidades?
+26,Estructural,Flyweight,¿Qué problema busca resolver Flyweight?
+27,Estructural,Flyweight,¿Cómo utilizarías Flyweight para representar miles de árboles en un videojuego sin almacenar repetidamente sus características comunes?
+28,Estructural,Flyweight,¿Cuál es la diferencia entre estado intrínseco y estado extrínseco?
+29,Estructural,Flyweight,¿En qué situaciones no sería conveniente utilizar Flyweight?
+30,Estructural,Flyweight,¿Cómo contribuye Flyweight a reducir el consumo de memoria de una aplicación Java?
+31,Estructural,Proxy,¿Qué problema resuelve el patrón Proxy?
+32,Estructural,Proxy,¿Cómo implementarías un Proxy para controlar el acceso a un documento confidencial?
+33,Estructural,Proxy,¿Cuál es la diferencia entre un Proxy de protección y un Proxy virtual?
+34,Estructural,Proxy,Imagina que una aplicación debe cargar imágenes de gran tamaño desde un servidor remoto. ¿Cómo utilizarías Proxy para mejorar el rendimiento?
+35,Estructural,Proxy,¿En qué se diferencia Proxy de Decorator si ambos patrones envuelven un objeto?
+36,Estructural,Integradores estructurales,"¿Qué diferencias existen entre Adapter, Bridge y Facade respecto al problema que resuelven?"
+37,Estructural,Integradores estructurales,"Una aplicación necesita agregar funcionalidades a objetos dinámicamente, sin modificar sus clases originales. ¿Qué patrón estructural utilizarías y por qué?"
+38,Estructural,Integradores estructurales,¿Cómo combinarías Composite y Decorator para construir un editor gráfico que permita agrupar figuras y agregarles efectos?
+39,Estructural,Integradores estructurales,Una aplicación administra miles de objetos que comparten información común. ¿Qué patrón estructural aplicarías para optimizar la memoria?
+40,Estructural,Integradores estructurales,"Si tuvieras que integrar un sistema antiguo con una nueva arquitectura de software, ¿qué patrones estructurales considerarías y cómo justificarías tu elección?"
+41,Comportamiento,Strategy,¿Qué problema resuelve el patrón Strategy?
+42,Comportamiento,Strategy,"¿Cómo implementarías diferentes estrategias de pago (tarjeta, efectivo y transferencia bancaria) utilizando Strategy?"
+43,Comportamiento,Strategy,¿Por qué Strategy permite evitar grandes estructuras condicionales basadas en if-else o switch?
+44,Comportamiento,Strategy,¿Qué ventajas tiene Strategy frente a implementar diferentes algoritmos mediante herencia?
+45,Comportamiento,Strategy,Imagina que una aplicación permite calcular rutas utilizando diferentes medios de transporte. ¿Cómo aplicarías Strategy?
+46,Comportamiento,Observer,¿Qué problema resuelve el patrón Observer?
+47,Comportamiento,Observer,¿Cómo implementarías Observer en un sistema donde varios usuarios reciben notificaciones cuando cambia el precio de un producto?
+48,Comportamiento,Observer,¿Qué responsabilidades tienen el Subject y el Observer?
+49,Comportamiento,Observer,¿Qué sucede cuando un observador deja de necesitar las notificaciones del Subject?
+50,Comportamiento,Observer,¿Qué diferencias existen entre Observer y un sistema de comunicación basado en llamadas directas entre objetos?
+51,Comportamiento,Command,¿Qué problema resuelve el patrón Command?
+52,Comportamiento,Command,¿Cómo implementarías Command para representar las operaciones de encender y apagar una lámpara?
+53,Comportamiento,Command,"¿Qué función cumplen las clases Command, Invoker y Receiver?"
+54,Comportamiento,Command,¿Cómo utilizarías Command para implementar una funcionalidad de deshacer (Undo) en un editor de texto?
+55,Comportamiento,Command,¿Por qué el patrón Command permite desacoplar al objeto que solicita una operación del objeto que la ejecuta?
+56,Comportamiento,State,¿Qué problema resuelve el patrón State?
+57,Comportamiento,State,¿Cómo representarías los estados de una máquina expendedora utilizando State?
+58,Comportamiento,State,¿Qué diferencia existe entre implementar los estados mediante if-else y utilizar el patrón State?
+59,Comportamiento,State,¿Cómo cambiaría el comportamiento de un objeto cuando cambia su estado interno?
+60,Comportamiento,State,¿En qué situaciones sería conveniente utilizar State en lugar de Strategy?
+61,Comportamiento,Memento,¿Qué problema resuelve el patrón Memento?
+62,Comportamiento,Memento,¿Cómo implementarías Memento para guardar y restaurar el contenido de un editor de texto?
+63,Comportamiento,Memento,"¿Qué responsabilidades tienen Originator, Memento y Caretaker?"
+64,Comportamiento,Memento,¿Cuál es la diferencia entre almacenar una referencia al objeto original y almacenar una copia de su estado?
+65,Comportamiento,Memento,¿Qué relación existe entre el patrón Memento y la funcionalidad de deshacer cambios?
+66,Comportamiento,Template Method,¿Qué problema resuelve Template Method?
+67,Comportamiento,Template Method,"¿Cómo implementarías un algoritmo general para preparar café y té, permitiendo que algunos pasos cambien según la bebida?"
+68,Comportamiento,Template Method,¿Qué diferencia existe entre los métodos abstractos y los métodos concretos dentro de Template Method?
+69,Comportamiento,Template Method,¿Por qué Template Method utiliza herencia para definir la estructura de un algoritmo?
+70,Comportamiento,Template Method,¿En qué situaciones sería más conveniente utilizar Strategy en lugar de Template Method?
+71,Comportamiento,Iterator,¿Qué problema resuelve el patrón Iterator?
+72,Comportamiento,Iterator,¿Cómo implementarías un iterador para recorrer una colección de estudiantes sin exponer su estructura interna?
+73,Comportamiento,Iterator,¿Qué responsabilidades tiene un Iterator?
+74,Comportamiento,Iterator,¿Qué ventajas ofrece Iterator frente a acceder directamente a los elementos mediante índices?
+75,Comportamiento,Iterator,¿Cómo permitirías recorrer una colección de objetos en diferentes órdenes utilizando Iterator?
+76,Comportamiento,Chain of Responsibility,¿Qué problema resuelve Chain of Responsibility?
+77,Comportamiento,Chain of Responsibility,"¿Cómo implementarías una cadena de aprobación de solicitudes donde intervienen un supervisor, un gerente y un director?"
+78,Comportamiento,Chain of Responsibility,¿Qué sucede cuando un objeto de la cadena no puede procesar una solicitud?
+79,Comportamiento,Chain of Responsibility,¿Qué ventajas tiene Chain of Responsibility frente a implementar múltiples condiciones if-else?
+80,Comportamiento,Chain of Responsibility,¿Cómo utilizarías este patrón para implementar una cadena de validaciones de datos?
+81,Comportamiento,Mediator,¿Qué problema resuelve Mediator?
+82,Comportamiento,Mediator,¿Cómo aplicarías Mediator para gestionar la comunicación entre los componentes de una sala de chat?
+83,Comportamiento,Mediator,¿Qué responsabilidad tiene el objeto Mediator?
+84,Comportamiento,Mediator,¿Por qué Mediator reduce las dependencias directas entre los objetos que se comunican?
+85,Comportamiento,Mediator,¿Qué diferencia existe entre Mediator y Observer?
+86,Comportamiento,Visitor,¿Qué problema resuelve Visitor?
+87,Comportamiento,Visitor,¿Cómo utilizarías Visitor para realizar diferentes operaciones sobre una estructura de figuras geométricas sin modificar las clases de las figuras?
+88,Comportamiento,Visitor,¿Qué responsabilidades tienen Visitor y Element?
+89,Comportamiento,Visitor,¿Qué sucede cuando se necesita agregar un nuevo tipo de elemento a una estructura que utiliza Visitor?
+90,Comportamiento,Visitor,¿En qué situaciones Visitor puede resultar más conveniente que utilizar métodos directamente en las clases de los objetos?
+91,Integración,Varios patrones de comportamiento,"Una aplicación de comercio electrónico necesita implementar diferentes métodos de pago, enviar notificaciones a los clientes y registrar las operaciones realizadas. ¿Qué patrones de comportamiento utilizarías y cómo se relacionarían?"
+92,Integración,Command y Memento,"Un editor de texto necesita implementar las funcionalidades de guardar, deshacer y rehacer cambios. ¿Qué patrones utilizarías y qué responsabilidad tendría cada uno?"
+93,Integración,Flyweight,"Un videojuego contiene miles de personajes que comparten características comunes, pero cada personaje tiene una posición y un nivel de energía diferentes. ¿Qué patrón estructural utilizarías y cómo separarías la información compartida de la particular?"
+94,Integración,State,Una aplicación tiene una clase de 1000 líneas que utiliza numerosos if-else para controlar el comportamiento de un objeto dependiendo de su estado. ¿Qué patrón aplicarías para mejorar su diseño? Justifica tu respuesta.
+95,Integración,Decorator,"Un sistema de gestión de documentos debe permitir agregar permisos de acceso, compresión y cifrado sin modificar la clase principal que representa los documentos. ¿Qué patrón utilizarías y cómo lo implementarías?"
+96,Integración,Adapter y Facade,"Una aplicación necesita integrar tres servicios externos que tienen interfaces diferentes. Además, desea ofrecer una interfaz sencilla para que el resto del sistema pueda utilizarlos. ¿Qué patrones estructurales combinarías?"
+97,Integración,Chain of Responsibility,Una empresa tiene un sistema de aprobación de vacaciones donde las solicitudes pasan por diferentes niveles jerárquicos. ¿Qué patrón utilizarías y cómo representarías la cadena de responsabilidades?
+98,Integración,Observer,Un sistema de monitoreo IoT recibe datos de sensores y necesita notificar automáticamente a diferentes aplicaciones cuando se detectan cambios importantes. ¿Qué patrón de comportamiento utilizarías? Explica cómo se comunicarían los componentes.
+99,Integración,Visitor,"Un sistema de dibujo permite representar círculos, cuadrados y triángulos. Se necesita incorporar nuevas operaciones como calcular el área, exportar a XML y generar reportes, sin modificar las clases de las figuras. ¿Qué patrón utilizarías y por qué?"
+100,Integración,"Strategy, Proxy y Observer","Diseña una solución para un sistema de reproducción multimedia que permita cambiar dinámicamente el algoritmo de reproducción, controlar el acceso a archivos y notificar a los usuarios cuando cambia el estado de reproducción. Identifica los patrones de diseño que utilizarías y explica la responsabilidad de cada uno."

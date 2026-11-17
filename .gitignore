@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+
+# Build output
+dist/
+.output/
+
+# Astro cache
+.astro/
+
+# Variables de entorno (contienen claves privadas)
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp

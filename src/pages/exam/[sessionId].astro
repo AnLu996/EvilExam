@@ -1,0 +1,12 @@
+---
+export const prerender = false;
+import Layout from "@/layouts/Layout.astro";
+import ExamRecorder from "@/components/ExamRecorder";
+
+const { sessionId } = Astro.params;
+if (!sessionId) return Astro.redirect("/");
+---
+
+<Layout title="Examen en curso">
+  <ExamRecorder sessionId={sessionId} client:load />
+</Layout>
